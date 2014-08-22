@@ -1,0 +1,21 @@
+[user]
+	name = Mike Danaher
+	email = danaher.mike@gmail.com
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[color]
+        diff = true
+[core]
+	autocrlf = input
+	safecrlf = true
+	editor = vim
+[alias]
+ 	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+ 	dump = cat-file -p
