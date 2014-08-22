@@ -1,0 +1,5 @@
+# Misc Aliases
+
+## Directory display
+alias ll='ls -a1F'
+alias ..='cd ..'
