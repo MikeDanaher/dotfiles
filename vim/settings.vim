@@ -1,0 +1,76 @@
+" Indentation
+set autoindent
+set textwidth=0                   " Don't break lines that wrap
+set wrapmargin=0                  " Don't wrap at a set margin
+set expandtab                     " Use spaces for all auto indentation
+set shiftwidth=2                  " Number of spaces to use for auto indent
+set softtabstop=2                 " Stop at 2 spaces for autoindent
+set tabstop=2                     " Tab is 2 spaces
+set wrap                          " Wrap lines that go off the page
+filetype plugin indent on         " Auto indent based on file type
+
+" Search
+set incsearch                     " Show search matches as you type
+set hlsearch                      " Highlight search terms
+set ignorecase                    " Ignore case when searching
+set smartcase                     " Ignore case if search pattern is all lowercase, case-sensitive otherwise
+
+" Search colors and highlighting
+hi Search    ctermbg=none ctermfg=none cterm=underline
+hi IncSearch ctermbg=none ctermfg=none cterm=bold,underline
+
+" Visuals
+syntax on
+let g:solarized_termcolors=256
+colorscheme solarized             " Use solorized color theme
+set background=dark               " Use dark background
+set splitright                    " Open new windows to the right
+set splitbelow                    " Open new window below
+set number                        " Always show line numbers
+set ruler                         " Shows location of cursor in bottom right
+set showcmd                       " Show partial commands on last line
+set list
+set listchars=tab:\ \ ,trail:·    " Display unwanted white space
+set showmatch                     " Matches parens/brackets
+set laststatus=2                  " Always show the status line
+set cursorline                    " Highlight cursor line
+set colorcolumn=80                " Highlight column 80
+set winwidth=90                   " Set the default width of a window
+set winminwidth=15                " Set the minimum width of a window
+set nofoldenable                  " Disbale folding
+
+" Movement
+set scrolloff=5                   " Start scrolling the window 5 lines from the edge
+set nostartofline                 " Stay in the current column when moving around
+set backspace=indent,eol,start    " Allow backspacing over everything in insert mode
+
+" Alerts
+set confirm                       " Confirms unsaved buffers before quitting
+
+" Change Legacy commands
+set nocompatible                  " Turn off compatibility with vi
+set nobackup                      " Turn off vim backups
+set nowritebackup                 " Turn off writing backups
+set noswapfile                    " Turn off vim swap file
+
+" Trim trailing whitespace on save
+autocmd BufWritePre *.* :%s/\s\+$//e
+
+" plugin options
+let NERDTreeMinimalUI              = 1
+let NERDTreeQuitOnOpen             = 0
+let NERDChristmasTree              = 1
+let NERDTreeHighlightCursorline    = 0
+let NERDTreeWinSize                = 35
+let NERDTreeDirArrows              = 1
+let NERDTreeStatusline             = ' '
+let NERDTreeShowHidden             = 1
+let NERDTreeChDirMode              = 1
+let NERDTreeShowLineNumbers        = 0
+let NERDTreeMouseMode              = 2
+let NERDTreeAutoCenter             = 1
+let NERDTreeAutoCenterThreshold    = 10
+let NERDTreeIgnore                 = ['\.git', '\.pyc', '\.jhw-cache']
+let g:no_html_toolbar              = 'yes'
+let g:airline_powerline_fonts      = 1
+let coffee_no_trailing_space_error = 1
