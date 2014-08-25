@@ -57,20 +57,14 @@ set noswapfile                    " Turn off vim swap file
 autocmd BufWritePre *.* :%s/\s\+$//e
 
 " plugin options
-let NERDTreeMinimalUI              = 1
-let NERDTreeQuitOnOpen             = 0
-let NERDChristmasTree              = 1
-let NERDTreeHighlightCursorline    = 0
-let NERDTreeWinSize                = 35
-let NERDTreeDirArrows              = 1
-let NERDTreeStatusline             = ' '
-let NERDTreeShowHidden             = 1
-let NERDTreeChDirMode              = 1
-let NERDTreeShowLineNumbers        = 0
-let NERDTreeMouseMode              = 2
-let NERDTreeAutoCenter             = 1
-let NERDTreeAutoCenterThreshold    = 10
-let NERDTreeIgnore                 = ['\.git', '\.pyc', '\.jhw-cache']
 let g:no_html_toolbar              = 'yes'
 let g:airline_powerline_fonts      = 1
 let coffee_no_trailing_space_error = 1
+
+" fix annoying parens with solarized and coffee
+autocmd BufReadPost *.coffee hi coffeeParen ctermfg=none
+
+augroup markdown
+  au!
+  au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
