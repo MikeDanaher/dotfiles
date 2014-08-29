@@ -4,7 +4,7 @@
 [credential]
 	helper = osxkeychain
 [push]
-	default = simple
+	default = matching
 [color]
         diff = true
 [core]
