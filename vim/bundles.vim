@@ -15,8 +15,8 @@ Plugin 'kien/ctrlp.vim'
 " NERDTree - file directory
 Plugin 'scrooloose/nerdtree'
 
-" Vim-Airline
-Plugin 'bling/vim-airline'
+" Super Tab autocompletion in insert mode
+Plugin 'ervandew/supertab'
 
 " Coffeescript syntax awareness
 Plugin 'kchmck/vim-coffee-script'
@@ -33,6 +33,9 @@ Plugin 'guns/vim-clojure-static'
 " Quasi-REPL for Clojure
 Plugin 'tpope/vim-fireplace'
 
+" Quasi-REPL for Clojure
+Plugin 'tpope/vim-fugitive'
+
 " Autocomplete parens, brackets, etc.
 Plugin 'Raimondi/delimitMate'
 
@@ -41,6 +44,9 @@ Plugin 'vim-scripts/tComment'
 
 " HTML5
 Plugin 'othree/html5.vim'
+
+" Vim-Airline
+Plugin 'bling/vim-airline'
 
 " End vundle and reset filetype on
 call vundle#end()

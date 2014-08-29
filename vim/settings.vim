@@ -56,11 +56,6 @@ set noswapfile                    " Turn off vim swap file
 " Trim trailing whitespace on save
 autocmd BufWritePre *.* :%s/\s\+$//e
 
-" plugin options
-let g:no_html_toolbar              = 'yes'
-let g:airline_powerline_fonts      = 1
-let coffee_no_trailing_space_error = 1
-
 " fix annoying parens with solarized and coffee
 autocmd BufReadPost *.coffee hi coffeeParen ctermfg=none
 
