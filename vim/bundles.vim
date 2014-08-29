@@ -15,8 +15,14 @@ Plugin 'kien/ctrlp.vim'
 " NERDTree - file directory
 Plugin 'scrooloose/nerdtree'
 
+" Vim-Airline
+Plugin 'bling/vim-airline'
+
 " Coffeescript syntax awareness
 Plugin 'kchmck/vim-coffee-script'
+
+" Vim Colors Solarized
+Plugin 'altercation/vim-colors-solarized'
 
 " Highlight matching parentheses
 Plugin 'kien/rainbow_parentheses.vim'
@@ -32,6 +38,9 @@ Plugin 'Raimondi/delimitMate'
 
 " Toggle comment
 Plugin 'vim-scripts/tComment'
+
+" HTML5
+Plugin 'othree/html5.vim'
 
 " End vundle and reset filetype on
 call vundle#end()

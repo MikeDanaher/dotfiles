@@ -4,7 +4,7 @@ source ~/dev/dotfiles/vim/settings.vim
 source ~/dev/dotfiles/vim/key_mappings.vim
 
 " Source edits to Vundle plugins
-for file in split(globpath('~/dev/dotfiles/vim/plugin_edits/', '*.vim'), '\n')
+for file in split(globpath('~/dev/dotfiles/vim/plugin_options/', '*.vim'), '\n')
   exe 'source ' file
 endfor
 
