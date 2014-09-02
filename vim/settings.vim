@@ -38,6 +38,7 @@ set colorcolumn=80                " Highlight column 80
 set winwidth=90                   " Set the default width of a window
 set winminwidth=15                " Set the minimum width of a window
 set nofoldenable                  " Disbale folding
+set shortmess+=I                  " Hide vim startup message
 
 " Movement
 set scrolloff=5                   " Start scrolling the window 5 lines from the edge
@@ -58,6 +59,9 @@ autocmd BufWritePre *.* :%s/\s\+$//e
 
 " fix annoying parens with solarized and coffee
 autocmd BufReadPost *.coffee hi coffeeParen ctermfg=none
+
+" Start vim with NERDTree open
+autocmd VimEnter * NERDTree
 
 augroup markdown
   au!

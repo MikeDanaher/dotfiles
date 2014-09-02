@@ -39,6 +39,12 @@ Plugin 'tpope/vim-fugitive'
 " Autocomplete parens, brackets, etc.
 Plugin 'Raimondi/delimitMate'
 
+" Align text using Tabular
+Plugin 'godlygeek/tabular'
+
+" Syntax highlighting for markdown files
+Plugin 'plasticboy/vim-markdown'
+
 " Toggle comment
 Plugin 'vim-scripts/tComment'
 
