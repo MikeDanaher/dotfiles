@@ -19,11 +19,13 @@ set smartcase                     " Ignore case if search pattern is all lowerca
 hi Search    ctermbg=none ctermfg=none cterm=underline
 hi IncSearch ctermbg=none ctermfg=none cterm=bold,underline
 
-" Visuals
-syntax on
+" Colors
 let g:solarized_termcolors=256
 colorscheme solarized             " Use solorized color theme
 set background=dark               " Use dark background
+
+" Visuals
+syntax on
 set splitright                    " Open new windows to the right
 set splitbelow                    " Open new window below
 set number                        " Always show line numbers

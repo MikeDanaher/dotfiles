@@ -27,11 +27,6 @@ imap <C-K> ->
 
 nmap , \
 
-" CommandT toggles
-map <Leader>t :CommandT<CR>
-map <silent> <LocalLeader>fb :CommandTBuffer<CR>
-map <silent> <LocalLeader>fr :CommandTFlush<CR>
-
 " NERDTree toggles
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>nr :NERDTree<CR>
@@ -44,4 +39,5 @@ nmap gp :cprev<CR>
 nmap gq :ccl<CR>
 nmap gl :cwindow<CR>
 
-map Y y$
+map  Y y$
+nmap v V

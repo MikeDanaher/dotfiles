@@ -18,6 +18,12 @@ Plugin 'scrooloose/nerdtree'
 " Super Tab autocompletion in insert mode
 Plugin 'ervandew/supertab'
 
+" Git commands inside Vim
+Plugin 'tpope/vim-fugitive'
+
+" Vim-Airline
+Plugin 'bling/vim-airline'
+
 " Coffeescript syntax awareness
 Plugin 'kchmck/vim-coffee-script'
 
@@ -33,17 +39,11 @@ Plugin 'guns/vim-clojure-static'
 " Quasi-REPL for Clojure
 Plugin 'tpope/vim-fireplace'
 
-" Quasi-REPL for Clojure
-Plugin 'tpope/vim-fugitive'
-
 " Autocomplete parens, brackets, etc.
 Plugin 'Raimondi/delimitMate'
 
 " Align text using Tabular
 Plugin 'godlygeek/tabular'
-
-" Syntax highlighting for markdown files
-Plugin 'plasticboy/vim-markdown'
 
 " Toggle comment
 Plugin 'vim-scripts/tComment'
@@ -51,8 +51,8 @@ Plugin 'vim-scripts/tComment'
 " HTML5
 Plugin 'othree/html5.vim'
 
-" Vim-Airline
-Plugin 'bling/vim-airline'
+" Syntax highlighting for markdown files
+Plugin 'plasticboy/vim-markdown'
 
 " End vundle and reset filetype on
 call vundle#end()
