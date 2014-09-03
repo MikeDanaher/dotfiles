@@ -1,5 +1,5 @@
 # Navigation Aliases
 
-alias 8l       = 'cd ~/dev/8thlight'
-alias md       = 'cd ~/dev/mikedanaher.github.io'
-alias dotfiles = 'cd ~/dev/dotfiles'
+alias 8l='cd ~/dev/8thlight'
+alias md='cd ~/dev/mikedanaher.github.io'
+alias dotfiles='cd ~/dev/dotfiles'
