@@ -40,4 +40,3 @@ nmap gq :ccl<CR>
 nmap gl :cwindow<CR>
 
 map  Y y$
-nmap v V
