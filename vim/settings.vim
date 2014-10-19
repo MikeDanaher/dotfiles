@@ -21,8 +21,8 @@ hi IncSearch ctermbg=none ctermfg=none cterm=bold,underline
 
 " Colors
 let g:solarized_termcolors=256
-colorscheme solarized             " Use solorized color theme
-set background=dark               " Use dark background
+colorscheme solarized
+set background=dark
 
 " Visuals
 syntax on

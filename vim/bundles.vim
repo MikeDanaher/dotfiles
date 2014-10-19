@@ -27,8 +27,8 @@ Plugin 'bling/vim-airline'
 " Coffeescript syntax awareness
 Plugin 'kchmck/vim-coffee-script'
 
-" Vim Colors Solarized
-Plugin 'altercation/vim-colors-solarized'
+" All Vim Colorschemes
+Plugin 'flazz/vim-colorschemes'
 
 " Highlight matching parentheses
 Plugin 'kien/rainbow_parentheses.vim'
