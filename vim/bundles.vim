@@ -54,6 +54,9 @@ Plugin 'othree/html5.vim'
 " Syntax highlighting for markdown files
 Plugin 'plasticboy/vim-markdown'
 
+" Go Plugin
+Plugin 'fatih/vim-go'
+
 " End vundle and reset filetype on
 call vundle#end()
 filetype on

@@ -3,3 +3,4 @@
 alias 8l='cd ~/dev/8thlight'
 alias md='cd ~/dev/mikedanaher.github.io'
 alias dotfiles='cd ~/dev/dotfiles'
+alias gottt='cd ~/dev/gocode/src/github.com/MikeDanaher/go-tic-tac-toe'
