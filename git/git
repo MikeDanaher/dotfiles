@@ -4,9 +4,9 @@
 [credential]
 	helper = osxkeychain
 [push]
-	default = matching
+	default = current
 [color]
-        diff = true
+  diff = true
 [core]
 	autocrlf = input
 	safecrlf = true
