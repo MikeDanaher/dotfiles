@@ -12,7 +12,7 @@ echo
 
 
 
-declare -A configs=( ["bash"]=".bashrc" ["vim"]=".vimrc" ["rspec"]=".rspec" ["git"]=".gitconfig" ["gvim"]=".gvimrc" )
+declare -A configs=( ["bash"]=".bashrc" ["vim"]=".vimrc" ["rspec"]=".rspec" ["git"]=".gitconfig" ["gvim"]=".gvimrc" ["tmux"]=".tmux.conf" )
 
 for groupname in "${!configs[@]}"
 do
