@@ -62,8 +62,8 @@ autocmd BufWritePre *.* :%s/\s\+$//e
 " fix annoying parens with solarized and coffee
 autocmd BufReadPost *.coffee hi coffeeParen ctermfg=none
 
-" Start vim with NERDTree open
-autocmd VimEnter * NERDTree
+" Open grep in a quickfix window
+autocmd QuickFixCmdPost *grep* cwindow
 
 augroup markdown
   au!
