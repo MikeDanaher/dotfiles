@@ -31,7 +31,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'flazz/vim-colorschemes'
 
 " Highlight matching parentheses
-Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'luochen1990/rainbow'
 
 " Clojure keyword highlighting
 Plugin 'guns/vim-clojure-static'
@@ -50,6 +50,9 @@ Plugin 'vim-scripts/tComment'
 
 " HTML5
 Plugin 'othree/html5.vim'
+
+" Surround things
+Plugin 'tpope/vim-surround'
 
 " Syntax highlighting for markdown files
 Plugin 'plasticboy/vim-markdown'
