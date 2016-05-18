@@ -12,6 +12,9 @@ Plugin 'gmarik/vundle.vim'
 " ControlP - Fuzzy search
 Plugin 'kien/ctrlp.vim'
 
+" Ag - grep
+Plugin 'rking/ag.vim'
+
 " NERDTree - file directory
 Plugin 'scrooloose/nerdtree'
 
