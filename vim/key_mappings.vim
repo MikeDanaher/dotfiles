@@ -40,3 +40,7 @@ nmap gq :ccl<CR>
 nmap gl :cwindow<CR>
 
 map  Y y$
+
+" Map previous and next buffers
+nnoremap b] :bnext<CR>
+nnoremap b[ :bprev<CR>
