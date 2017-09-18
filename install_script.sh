@@ -10,8 +10,6 @@ echo "So without further ado, let's get started!"
 echo
 echo
 
-
-
 declare -A configs=( ["bash"]=".bashrc" ["vim"]=".vimrc" ["rspec"]=".rspec" ["git"]=".gitconfig" ["gvim"]=".gvimrc" ["tmux"]=".tmux.conf" )
 
 for groupname in "${!configs[@]}"
