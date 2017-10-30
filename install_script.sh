@@ -88,7 +88,8 @@ do
   echo
 done
 
-
+echo "Installing Vundle"
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo "Dotfiles setup complete!"
 echo "Changes will take effect after restarting your terminal."

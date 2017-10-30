@@ -63,12 +63,17 @@ echo "Installing cask..."
 brew install caskroom/cask/brew-cask
 
 CASKS=(
+    1password
     atom
+    dropbox
+    filezilla
     firefox
     google-chrome
+    intellij-idea
     iterm2
     slack
     spectacle
+    teamviewer
     vlc
 )
 
@@ -89,9 +94,6 @@ RUBY_GEMS=(
 )
 sudo gem install ${RUBY_GEMS[@]}
 
-echo "Installing Vundle"
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
 echo "Configuring OSX..."
 
 # Set fast key repeat rate
@@ -108,4 +110,7 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 echo "Creating folder structure..."
 [[ ! -d Dev ]] && mkdir Dev
 
-echo "Bootstrapping complete"
+echo "Downloading Dot Files"
+git clone https://github.com/MikeDanaher/dotfiles.git ~/Dev/dotfiles
+
+echo "Setup complete. Run install script to complete dot file installation."
