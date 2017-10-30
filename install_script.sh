@@ -6,8 +6,6 @@ echo "  2. Archive your existing config file (renaming it with the suffix '_old'
 echo "  3. Delete your existing config file and hook up to the dotfiles' settings for that group"
 echo "Assuming you choose option 2 or 3, the script will create a symlink pointing the requisite system file to the appropriate file in the dotfiles directory."
 echo
-echo "So without further ado, let's get started!"
-echo
 echo
 
 declare -A configs=( ["bash"]=".bashrc" ["vim"]=".vimrc" ["rspec"]=".rspec" ["git"]=".gitconfig" ["gvim"]=".gvimrc" ["tmux"]=".tmux.conf" )
@@ -92,9 +90,6 @@ done
 
 
 
-##
-## That's all, folks!
-##
 echo "Dotfiles setup complete!"
 echo "Changes will take effect after restarting your terminal."
 echo

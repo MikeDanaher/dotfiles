@@ -3,20 +3,13 @@
 * iTerm
 * XCode
 * Chrome
-* Flux
-* OneDrive
 * Slack
+* Trello
 * Wunderlist
-* Evernote
-* Sunrise
 * Spectacle
 * FireFox
-* Tunnleblick
 * TeamViewer
-* Skype
 * VLC
-* MobileMouse Server
-* GoToMeeting
 * MS Office
 * MS Remote Desktop
 
@@ -27,28 +20,22 @@
 
 ## Brew
 
-* git
-* autoconf
-* cscope
-* leiningen
-* pkg-config
-* tmate
-* automake
-* gdbm
-* libevent
-* node
-* postgresql
-* ruby-build
-* tmux
 * bash
-* wget
 * bash-completion
-* macvim
+* git
+* leiningen
+* node
+* openssl
 * ossp-uuid
-* rbenv
-* xctool
-* cmake
-* jsonpp
 * phantomjs
+* postgresql
+* rbenv
 * rbenv-gem-rehash
+* ruby
+* ruby-build
 * sqlite
+* the_silver_searcher
+* tmux
+* vim
+* wget
+* xctool
