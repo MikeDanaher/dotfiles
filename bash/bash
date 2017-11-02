@@ -14,5 +14,7 @@ source ~/dev/dotfiles/bash/bash.rbenv
 ## Source all secret bash files
 for f in ~/dev/dotfiles/bash/secret/*; do source $f; done
 
+export SVN_EDITOR=vim
+
 # added by travis gem
 [ -f /Users/mikedanaher/.travis/travis.sh ] && source /Users/mikedanaher/.travis/travis.sh
