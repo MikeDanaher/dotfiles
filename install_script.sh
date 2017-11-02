@@ -8,7 +8,14 @@ echo "Assuming you choose option 2 or 3, the script will create a symlink pointi
 echo
 echo
 
-declare -A configs=( ["bash"]=".bashrc" ["vim"]=".vimrc" ["rspec"]=".rspec" ["git"]=".gitconfig" ["gvim"]=".gvimrc" ["tmux"]=".tmux.conf" )
+declare -A configs= (
+  ["bash"]=".bashrc"
+  ["vim"]=".vimrc"
+  ["rspec"]=".rspec"
+  ["git"]=".gitconfig"
+  ["gvim"]=".gvimrc"
+  ["tmux"]=".tmux.conf"
+)
 
 for groupname in "${!configs[@]}"
 do
@@ -87,6 +94,14 @@ do
   echo
   echo
 done
+
+echo "Create bash_profile"
+echo "source ~/.bashrc" > ~/.bash_profile
+
+echo "Create more folders"
+mkdir ~/Dev/dotfiles/bash/secret/
+touch ~/Dev/dotfiles/bash/secret/secrets
+mkdir ~/Dev/8thLight/
 
 echo "Installing Vundle"
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
