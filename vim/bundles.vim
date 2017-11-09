@@ -27,11 +27,17 @@ Plugin 'tpope/vim-fugitive'
 " Vim-Airline
 Plugin 'bling/vim-airline'
 
-" Coffeescript syntax awareness
-Plugin 'kchmck/vim-coffee-script'
-
 " All Vim Colorschemes
 Plugin 'flazz/vim-colorschemes'
+
+" Jasmine
+Plugin 'glanotte/vim-jasmine'
+
+" TypeScript keyword highlighting
+Plugin 'leafgarland/typescript-vim'
+
+" Angular
+Plugin 'burnettk/vim-angular'
 
 " Highlight matching parentheses
 Plugin 'luochen1990/rainbow'
@@ -59,9 +65,6 @@ Plugin 'tpope/vim-surround'
 
 " Syntax highlighting for markdown files
 Plugin 'plasticboy/vim-markdown'
-
-" Go Plugin
-Plugin 'fatih/vim-go'
 
 " End vundle and reset filetype on
 call vundle#end()
