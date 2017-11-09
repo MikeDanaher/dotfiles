@@ -33,6 +33,7 @@ PACKAGES=(
     automake
     bash-completion
     git
+    icdiff
     leiningen
     markdown
     npm

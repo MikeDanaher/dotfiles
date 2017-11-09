@@ -1,4 +1,4 @@
-echo
+#!/usr/bin/env bash
 echo
 echo "This script will walk through each group of settings (bash, vim, gvim, rspec, and git) to check if you have an existing config file for that group. If you do, you will have three options:"
 echo "  1. Keep using your existing config file and don't hook up to the dotfiles' settings for that group"

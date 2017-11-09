@@ -1,5 +1,6 @@
 # PATH
 
+export SCRIPT_PATH="~/dev/dotfiles/bash/scripts"
 export ANT_PATH="~/dev/8thLight/ama/apache-ant-1.8.4/bin"
 export PY_PATH="/usr/local/opt/python/libexec/bin"
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$HOME/.cabal/bin:$PY_PATH:$ANT_PATH:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PY_PATH:$ANT_PATH:$SCRIPT_PATH:$PATH"
