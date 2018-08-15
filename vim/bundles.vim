@@ -25,10 +25,16 @@ Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-fugitive'
 
 " Vim-Airline
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+
+" Vim-Airline Themes
+Plugin 'vim-airline/vim-airline-themes'
 
 " All Vim Colorschemes
 Plugin 'flazz/vim-colorschemes'
+
+" Snow Colorscheme
+Plugin 'nightsense/snow'
 
 " Jasmine
 Plugin 'glanotte/vim-jasmine'
@@ -65,6 +71,9 @@ Plugin 'tpope/vim-surround'
 
 " Syntax highlighting for markdown files
 Plugin 'plasticboy/vim-markdown'
+
+" Elm
+Plugin 'elmcast/elm-vim'
 
 " End vundle and reset filetype on
 call vundle#end()

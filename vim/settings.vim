@@ -20,9 +20,9 @@ hi Search    ctermbg=none ctermfg=none cterm=underline
 hi IncSearch ctermbg=none ctermfg=none cterm=bold,underline
 
 " Colors
-let g:solarized_termcolors=256
-colorscheme solarized
-set background=dark
+set termguicolors
+set background=light
+colorscheme snow
 
 " Visuals
 syntax on
@@ -60,7 +60,7 @@ set noswapfile                    " Turn off vim swap file
 autocmd BufWritePre *.* :%s/\s\+$//e
 
 " fix annoying parens with solarized and coffee
-autocmd BufReadPost *.coffee hi coffeeParen ctermfg=none
+" autocmd BufReadPost *.coffee hi coffeeParen ctermfg=none
 
 " Open grep in a quickfix window
 autocmd QuickFixCmdPost *grep* cwindow
@@ -69,3 +69,6 @@ augroup markdown
   au!
   au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
 augroup END
+
+" Set line endings to unix style
+set ff=unix
