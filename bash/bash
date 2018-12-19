@@ -10,7 +10,6 @@ for f in ~/dev/dotfiles/bash/aliases/*; do source $f; done
 for f in ~/dev/dotfiles/bash/functions/*; do source $f; done
 source ~/dev/dotfiles/bash/bash.prompt
 source ~/dev/dotfiles/bash/bash.rbenv
-source ~/dev/dotfiles/bash/bash.nvm
 
 ## Source all secret bash files
 for f in ~/dev/dotfiles/bash/secret/*; do source $f; done
