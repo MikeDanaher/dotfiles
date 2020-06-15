@@ -8,7 +8,7 @@ echo "Assuming you choose option 2 or 3, the script will create a symlink pointi
 echo
 echo
 
-declare -A configs= (
+declare -A configs=(
   ["bash"]=".bashrc"
   ["vim"]=".vimrc"
   ["rspec"]=".rspec"

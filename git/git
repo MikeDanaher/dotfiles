@@ -8,8 +8,8 @@
 [color]
   diff = true
 [core]
-	autocrlf = input
-	safecrlf = true
+	autocrlf = false
+	safecrlf = false
 	editor = vim
 [alias]
  	co = checkout

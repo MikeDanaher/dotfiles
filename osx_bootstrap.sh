@@ -26,7 +26,7 @@ fi
 brew update
 
 # Install Bash 4
-brew install bash
+# brew install bash
 
 PACKAGES=(
     autoconf
@@ -34,7 +34,6 @@ PACKAGES=(
     bash-completion
     git
     icdiff
-    leiningen
     markdown
     npm
     openssl
@@ -60,33 +59,33 @@ brew install ${PACKAGES[@]}
 echo "Cleaning up..."
 brew cleanup
 
-echo "Installing cask..."
-brew install caskroom/cask/brew-cask
+# echo "Installing cask..."
+# brew install caskroom/cask/brew-cask
 
-CASKS=(
-    1password
-    atom
-    dropbox
-    filezilla
-    firefox
-    google-chrome
-    intellij-idea
-    iterm2
-    slack
-    spectacle
-    teamviewer
-    vlc
-)
+# CASKS=(
+#     1password
+#     atom
+#     dropbox
+#     filezilla
+#     firefox
+#     google-chrome
+#     intellij-idea
+#     iterm2
+#     slack
+#     spectacle
+#     teamviewer
+#     vlc
+# )
 
-echo "Installing cask apps..."
-brew cask install ${CASKS[@]}
+# echo "Installing cask apps..."
+# brew cask install ${CASKS[@]}
 
-echo "Installing fonts..."
-brew tap caskroom/fonts
-FONTS=(
-    font-inconsolata-for-powerline
-)
-brew cask install ${FONTS[@]}
+# echo "Installing fonts..."
+# brew tap caskroom/fonts
+# FONTS=(
+#     font-inconsolata-for-powerline
+# )
+# brew cask install ${FONTS[@]}
 
 echo "Installing Ruby gems"
 RUBY_GEMS=(
@@ -101,17 +100,17 @@ echo "Configuring OSX..."
 defaults write NSGlobalDomain KeyRepeat -int 0
 
 # Require password as soon as screensaver or sleep mode starts
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+# defaults write com.apple.screensaver askForPassword -int 1
+# defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Enable tap-to-click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 echo "Creating folder structure..."
-[[ ! -d Dev ]] && mkdir Dev
+# [[ ! -d Dev ]] && mkdir Dev
 
 echo "Downloading Dot Files"
-git clone https://github.com/MikeDanaher/dotfiles.git ~/Dev/dotfiles
+# git clone https://github.com/MikeDanaher/dotfiles.git ~/Dev/dotfiles
 
 echo "Setup complete. Run install script to complete dot file installation."
